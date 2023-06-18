@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "strip-bom": "^5.0.0"
+  },
+  "name": "poke-searcher",
+  "version": "1.0.0",
+  "description": "a cli tool that will allow to search pokemon from the pokeapi",
+  "main": "./lib/pokesearch.mjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./lib/pokesearch.mjs\t"
+  },
+  "bin": {
+    "pokesearch": "./bin/global-pokesearch.mjs"
+  },
+  "keywords": [
+    "pokemon"
+  ],
+  "author": "quikiesamus",
+  "license": "ISC"
+}
