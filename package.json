@@ -14,7 +14,7 @@
     "test": "node ./lib/pokesearch.mjs\t"
   },
   "bin": {
-    "pokesearch": "./bin/global-pokesearch.mjs"
+    "poke-search": "./bin/global-pokesearch.mjs"
   },
   "keywords": [
     "pokemon"
