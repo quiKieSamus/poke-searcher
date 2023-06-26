@@ -6,6 +6,9 @@
   "version": "1.0.0",
   "description": "a cli tool that will allow to search pokemon from the pokeapi",
   "main": "./lib/pokesearch.mjs",
+  "repository": {
+    "url": "https://github.com/quiKieSamus/poke-searcher"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "node ./lib/pokesearch.mjs\t"

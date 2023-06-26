@@ -48,5 +48,3 @@ async function handler(processVariables = process.argv) {
 }
 
 handler();
-
-console.log("hola");
