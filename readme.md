@@ -11,5 +11,9 @@ A cli tool for pokeapi using javascript. I made it as a quick project to learn h
 The core of the app is in ./lib/pokesearch.mjs. If you want to test it you could do so by typing in your terminal
 
 ``` 
-    node ./lib/pokesearch.mjs [pokename] [pokeproperty from json]
+    node ./lib/pokesearch.mjs [flag] [endpoint] [Name or ID]
 ```
+Or if you've installed it globally
+````
+    pokesearch [flag] [endpoint] [Name or ID]
+````
