@@ -30,7 +30,7 @@ async function handler(processVariables = process.argv) {
         case '-o':
             if (pokeSection) return console.log(subProperty !== "" ? pokemonObject[subProperty] : pokemonObject);
         case '-l':
-            return console.log(`pokemon\nberry\ncontest-type\nencounter-method\nevolution\ngame\nitem\nlocation\nmachine\nmove`);
+            return console.log(`pokemon\nberry\ncontest-type\nencounter-method\nevolution\ngeneration\nitem\nlocation\nmachine\nmove`);
         // case '-w':
         //     try {
         //         let pathToOutput = path.resolve("./");
